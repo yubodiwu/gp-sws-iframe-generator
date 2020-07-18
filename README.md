@@ -8,3 +8,5 @@ Just do the following:
 2. Set a starting date and time for the service
 3. Click the "GENERATE IFRAME" button
 4. Copy the generated iframe and paste it into the online church embed.
+
+This tool is deployed to http://yubodiwu.github.io/gp-sws-iframe-generator.
