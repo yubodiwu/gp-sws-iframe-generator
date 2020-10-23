@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/gp-sws-iframe-generator/precache-manifest.90bd96d64a29882cbb5fd146027aefc7.js"
+  "/gp-sws-iframe-generator/precache-manifest.1d0d4c8cd27ee6c2e04878718640bcc3.js"
 );
 
 self.addEventListener('message', (event) => {
