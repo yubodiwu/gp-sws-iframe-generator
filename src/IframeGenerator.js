@@ -47,7 +47,7 @@ const IframeGenerator = () => {
           className={styles.generate}
           color="primary"
           onClick={() => {
-            setIframe(`<iframe src="https://cloudflare-stream.iusmberkeley.org/?src=${src}&startTimestamp=${Math.floor(new Date(selectedDate).getTime() / 1000)}" width="100%" height="100%" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>`);
+            setIframe(`<iframe src="https://d1p7j0vcguizd7.cloudfront.net/?src=${src}&startTimestamp=${Math.floor(new Date(selectedDate).getTime() / 1000)}" width="100%" height="100%" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>`);
             const copyInput = document.querySelector('#hidden-input');
             copyInput.focus();
             copyInput.select();
